@@ -1,0 +1,29 @@
+# 必填章节（Markdown 标题，必须全部存在于 README.md 中）
+required_sections:
+  - "# GitHub 仓库 README 规范化验证项目"
+  - "## 项目简介"
+  - "## 使用方法"
+  - "## 验证规则说明"
+
+# 必需徽章（Markdown 图片链接，必须全部存在于 README.md 中）
+required_badges:
+  - "![License](https://img.shields.io/badge/license-MIT-green)"
+  - "![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)"
+
+# 必须存在的内部链接（相对路径，文件必须在仓库中存在）
+internal_links:
+  - "docs/API.md"
+  - "CONTRIBUTING.md"
+
+# 必须存在且可访问的外部链接（URL 必须返回 200 状态码）
+external_links:
+  - "https://github.com"
+  - "https://www.python.org"
+
+# 可选配置：最小内容长度（字符数）
+min_content_length: 300
+
+# 可选配置：禁止出现的关键词（不区分大小写）
+forbidden_keywords:
+  - "TODO"
+  - "FIXME"
